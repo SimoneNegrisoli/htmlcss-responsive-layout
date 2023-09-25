@@ -174,6 +174,10 @@ CENTERING
     .d-flex{
         display: flex;
     }
+    .wrap{
+        display: flex;
+        flex-flow: row wrap;
+    }
     .s-between{
         justify-content: space-between;
     }
@@ -326,14 +330,38 @@ main{
         border: none;
         font-size: 1.1em;
     }
-
-
-
-
-
-
-
-
+/* SECTION6 */
+    #cta{
+        background-color: var(--color-primary);
+        color: var(--color-light);
+    }
+    .cta-incipit{
+        color: rgba(255, 255, 255, 0.4);
+    }
+    .cta-claim{
+        font-size: 2.5em;
+    }
+    #cta h2{
+        color: var(--color-contrast);
+        font-size: 4em;
+        font-weight: 700;
+    }
+    #cta p{
+        line-height: 1.8em;
+    }
+    #cta button{
+        padding: 15px 80px;
+        border-radius: 30px;
+        background-color: var(--color-light);
+        color: var(--color-primary);
+        cursor: pointer;
+        border: none;
+        font-size: 1.2em;
+    }
+    #cta ul li a {
+        text-decoration: underline;
+        color: var(--color-light);
+    }
 /********************************************************** 
 FOOTER 
 ***********************************************************/
