@@ -138,11 +138,12 @@ UTILITIES
 
     /* Bottoni */
     .btn{
-        padding: 6px 15px;
-        border-radius: 15px;
+        padding: 10px 60px;
+        border-radius: 30px;
         background-color: var(--color-primary);
         color: var(--color-light);
         cursor: pointer;
+        border: none;
     }
     .btn-blue{
         background-color: var(--color-secondary);
@@ -158,6 +159,7 @@ UTILITIES
         padding: 15px 25px;
         border-radius: 15px;
         cursor: pointer;
+        border: none;
     }
 
 
@@ -249,25 +251,42 @@ main{
     }
 
 /* SECTION3 */
-#testimonials h2{
-    font-size: 2em;
-}
-.t-img img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.t-cards{
-    background-color: var(--color-primary);
-    color: var(--color-light);
-    border-radius: 20px;
-}
-
-
-
-
-
+    #testimonials h2{
+        font-size: 2em;
+    }
+    .t-img img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .t-cards{
+        background-color: var(--color-primary);
+        color: var(--color-light);
+        border-radius: 50px;
+    }
+/* SECTION4 */
+    #benefits{
+        background-color: var(--color-primary);
+    }
+    #benefits h2{
+        font-size: 2em;
+        color: var(--color-light);   
+    }
+    .benefits-cards{
+        background-color: var(--color-light);
+        border-radius: 20px;
+        padding: 40px 30px 20px 30px;
+    }
+    #benefits i, h5{
+        color: var(--color-primary);
+    }
+    #benefits h5{
+        font-size: 1.6em;
+    }
+    #benefits .btn{
+        font-size: 1.2em;
+    }
 
 /********************************************************** 
 FOOTER 
