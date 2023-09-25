@@ -82,7 +82,10 @@ UTILITIES
         text-transform: uppercase;
     }
 
-    /* Padding */
+    /* Padding & Margin*/
+    .padd{
+        padding: 30px;
+    }
     .paddx-10{
         padding-left: 10px ;
         padding-right: 10px ;
@@ -103,6 +106,18 @@ UTILITIES
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .paddy-30{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .paddy-40{
+         padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .margin-top{
+        margin-top: 40px;
+    }
 
     /* Bordi */
     .s-border-rad{
@@ -110,6 +125,9 @@ UTILITIES
     }
     .l-border-rad{
         border-radius: 20px;
+    }
+    .xl-border-rad{
+        border-radius: 30px;
     }
     .circle{
         border-radius: 50%;
@@ -185,24 +203,43 @@ MAIN
 main{
     background-color: var(--color-light);
 }
-.card-text button{
-    color: var(--color-light);
-    font-size: 1.1em;
-}
-.card-text button i{
-    padding-right: 10px;
-}
-#intro{
-    margin-top: 80px;
-}
-#intro .card{
-    background-color: var(--color-bg-card);
-}
-#intro .card img{
-    position: relative;
-    top: 10px;
-}
 
+/* SECTION1 */
+    .card-text button{
+        color: var(--color-light);
+        font-size: 1.1em;
+    }
+    .card-text button i{
+        padding-right: 10px;
+    }
+    #intro{
+        margin-top: 80px;
+    }
+    #intro .card{
+        background-color: var(--color-bg-card);
+    }
+    #intro .card img{
+        position: relative;
+        top: 10px;
+    }
+
+/* SECTION2 */
+#planner{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.focus-planner{
+    background-color: var(--color-light);
+}
+#planner h4{
+    font-size: 1.5em;
+}
+#planner a i{
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    border-radius: 50%;
+    padding: 15px 20px;
+}
 /********************************************************** 
 FOOTER 
 ***********************************************************/
