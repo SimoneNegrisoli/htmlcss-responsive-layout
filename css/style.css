@@ -265,6 +265,7 @@ main{
         color: var(--color-light);
         border-radius: 50px;
     }
+
 /* SECTION4 */
     #benefits{
         background-color: var(--color-primary);
@@ -287,6 +288,51 @@ main{
     #benefits .btn{
         font-size: 1.2em;
     }
+
+/* SECTION5 */
+    #about-us h2{
+        font-size: 2.5em;
+        color: var(--color-primary);
+    }
+    #about-us p{
+        line-height: 2.5em;
+    }
+    #about-us img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    #claim{
+        font-size: 1.8em;
+        color: var(--color-primary);
+        line-height: 1.4em;
+    }
+    .ad{
+        position: relative;
+        width: 200px;
+    }
+    #quote i{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: var(--color-primary);
+    }
+    #about-us button{
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: var(--color-primary);
+        color: var(--color-light);
+        cursor: pointer;
+        border: none;
+        font-size: 1.1em;
+    }
+
+
+
+
+
+
+
 
 /********************************************************** 
 FOOTER 
