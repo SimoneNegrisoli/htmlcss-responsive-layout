@@ -40,7 +40,7 @@ ul li {
         padding: 10px;
     }
     .col{
-        padding: 10px;
+        padding: 20px;
     }
     .card{
         padding: 10px;
@@ -117,22 +117,32 @@ UTILITIES
         border-radius: 15px;
         background-color: var(--color-primary);
         color: var(--color-light);
+        cursor: pointer;
     }
     .btn-blue{
         background-color: var(--color-secondary);
         color: var(--color-dark);
-        padding: 6px 15px;
-        border-radius: 15px;
+        padding: 10px 60px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
     }
     .btn-blue-cta{
         background-color: var(--color-light);
         color: var(--color-primary);
         padding: 15px 25px;
         border-radius: 15px;
+        cursor: pointer;
     }
 
 
+/**********************************************************
+CENTERING 
+**********************************************************/
 
+.text-center{
+    text-align: center;
+}
 
 
 /********************************************************** 
@@ -152,8 +162,20 @@ MAIN
 main{
     background-color: var(--color-light);
 }
-
-
+.card-text button{
+    color: var(--color-light);
+    font-size: 1.1em;
+}
+.card-text button i{
+    padding-right: 10px;
+}
+#intro .card{
+    background-color: var(--color-bg-card);
+}
+#intro .card img{
+    position: relative;
+    top: 10px;
+}
 
 
 /********************************************************** 
