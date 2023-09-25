@@ -72,11 +72,14 @@ UTILITIES
     .text-light{
         color: var(--color-light);
     }
+    .text-purple{
+        color: var(--color-primary);
+    }
     .text-center{
         text-align: center;
     }
     .line-higth{
-        line-height: 1.5;
+        line-height: 1.8em;
     }
     .text-uppercase{
         text-transform: uppercase;
@@ -176,6 +179,10 @@ CENTERING
         align-items: center;
         align-content: center;
     }
+    .column{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
 /********************************************************** 
 HEADER 
@@ -224,22 +231,44 @@ main{
     }
 
 /* SECTION2 */
-#planner{
+    #planner{
+        background-color: var(--color-primary);
+        color: var(--color-light);
+    }
+    .focus-planner{
+        background-color: var(--color-light);
+    }
+    #planner h4{
+        font-size: 1.5em;
+    }
+    #planner a i{
+        background-color: var(--color-primary);
+        color: var(--color-dark);
+        border-radius: 50%;
+        padding: 15px 20px;
+    }
+
+/* SECTION3 */
+#testimonials h2{
+    font-size: 2em;
+}
+.t-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.t-cards{
     background-color: var(--color-primary);
     color: var(--color-light);
+    border-radius: 20px;
 }
-.focus-planner{
-    background-color: var(--color-light);
-}
-#planner h4{
-    font-size: 1.5em;
-}
-#planner a i{
-    background-color: var(--color-primary);
-    color: var(--color-dark);
-    border-radius: 50%;
-    padding: 15px 20px;
-}
+
+
+
+
+
+
 /********************************************************** 
 FOOTER 
 ***********************************************************/
